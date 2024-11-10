@@ -39,7 +39,7 @@ from f5_tts.infer.utils_infer import (
 )
 
 
-DEFAULT_TTS_MODEL = "F5-TTS"
+DEFAULT_TTS_MODEL = "Custom"
 tts_model_choice = DEFAULT_TTS_MODEL
 
 
