@@ -759,6 +759,7 @@ If you're having issues, try converting your reference audio to WAV or MP3, clip
             )
         with gr.Column(visible=False) as choose_custom_tts_model:
             custom_ckpt_path = gr.Textbox(
+                value="/content/F5-TTS/model.safetensors",
                 placeholder="MODEL_CKPT:  local_path  |  hf://SWivid/F5-TTS/F5TTS_Base/model_1200000.safetensors",
                 show_label=False,
                 min_width=200,
